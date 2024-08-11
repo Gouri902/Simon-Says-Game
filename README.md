@@ -1,2 +1,2 @@
 # Simon-Says-Game
-This project is a simple Simon Says game created using HTML, CSS, and JavaScript. The game generates a pattern of colors that the player must memorize and repeat in the correct sequence.
+This project is a simple Simon Says game created using HTML, CSS, and JavaScript. The game generates a pattern of colors that the player must memorize and repeat in the correct sequence. With each correct sequence, the game progresses to the next level, adding an additional color to the pattern. The objective is to achieve the highest score by accurately remembering and repeating the sequences.
