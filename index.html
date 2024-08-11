@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Simon Saya Game</title>
+	</head>
+	<body>
+		<h1>Simon Game</h1>
+		<h2>
+			Welcome to Simon Says! <br />
+			<span style="font-size: 16px">
+				Follow the pattern of colors shown by the game. Click the buttons in the same sequence to advance to the next level. <br />
+				Try to achieve the highest score by remembering and repeating the sequence accurately. Good luck!
+			</span>
+			<br />
+			<br />
+			<span style="font-weight: bold; color: rgb(39, 39, 152)">Press any key to start</span>.
+		</h2>
+		<div class="btn-container">
+			<div class="line-one">
+				<div class="btn pink" type="button" id="pink">1</div>
+				<div class="btn yellow" type="button" id="yellow">2</div>
+			</div>
+			<div class="line-two">
+				<div class="btn purple" type="button" id="purple">3</div>
+				<div class="btn blue" type="button" id="blue">4</div>
+				<!-- we have created these ids cause they will contain the colon name they carry, 
+				we'll not use these ids for styling -->
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
